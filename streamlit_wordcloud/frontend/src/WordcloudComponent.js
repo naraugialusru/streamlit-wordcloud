@@ -93,11 +93,11 @@ const WordcloudComponent = (props) => {
     });
   }
   const onWordHovered = (word) => {
-    setState((state) => {
-      return {
-        clicked: state.clicked,
-        hovered: word,
-      }
+    // setState((state) => {
+    //  return {
+    //    clicked: state.clicked,
+    //    hovered: word,
+    //  }
     })
   }
   const getWordColor = (word) => word.color;
